@@ -6,11 +6,17 @@
         <title>vue-practice</title>
         <link href="style.css" rel="stylesheet" type="text/css"/>
         <script src="https://unpkg.com/vue@next"></script>
+        <script src="https://unpkg.com/lodash@4.17.20/lodash.min.js"></script>
     </head>
     <body>
-        <h1> Using Vue Methods </h1>
+        <h1>Looping through Arrays</h1>
+        <ol id="to-loop-array">
+            <li v-for="item in items">
+                {{ item.content }}
+            </li>
+        </ol>
         <div id="app">
-            {{sampleStr}}
+            
         </div>
         <script src="script.js"></script>
     </body>

@@ -16,11 +16,3 @@ const app = Vue.createApp(RootComponent);
 // Attach | Mount app obj to DOM element(usually a div) 
 const appInst = app.mount("#textToReverse");
 console.log(appInst.text)
-/* 
-// Define UI Component
-app.component("UserInput", UserInputComponent)
-// Define UI action
-app.directive("blur", BlurDirective)
-// Load Vue Plugin
-app.use(LocalPlugin)
- */
